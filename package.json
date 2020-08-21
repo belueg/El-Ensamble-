@@ -1,0 +1,33 @@
+{
+  "name": "el-ensamble",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "convertTowWebp": "gulp optimizeImages",
+    "purgeCss": "node purgeCss",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belueg/El-Ensamble-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belueg/El-Ensamble-/issues"
+  },
+  "homepage": "https://github.com/belueg/El-Ensamble-#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-ext-replace": "^0.3.0",
+    "imagemin-webp": "^6.0.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-purgecss": "^2.3.0"
+  }
+}
